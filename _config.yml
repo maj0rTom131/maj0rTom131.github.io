@@ -1,0 +1,10 @@
+# Site settings
+title: La Réunion Blog
+#description: Modern-Blog A Elegant template for Jekyll
+author: Tom
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+gems: [jekyll-paginate,jekyll-seo-tag,jekyll-sitemap]
+paginate: 6
+
+instagram_username: maj0rtom
