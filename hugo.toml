@@ -1,0 +1,23 @@
+baseURL = 'https://maj0rtom131.github.io/'
+languageCode = 'de-de'
+title = 'Sabbatical Blog'
+theme = "quint"
+summaryLength = 20                  # Number of characters in your card summaries
+
+[params]
+useToc = true
+description = 'Ein Blog für das Sabbatical'
+logo = '/images/logo_light.png'
+
+[[menus.main]]
+name = 'GitHub'
+url = 'https://github.com/victoriadrake/hugo-theme-quint'
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[markup.goldmark.renderHooks.image]
+    enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+    enableDefault = true
