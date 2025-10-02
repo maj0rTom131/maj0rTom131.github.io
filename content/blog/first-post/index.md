@@ -2,7 +2,7 @@
 title: "First"
 date: 2025-10-01T19:09:15+02:00
 draft: false
-image: '/blog/images/logo_light.png'
+image: 'images/test.png'
 description: "The first blog entry"
 subtitle: "Tom"
 ---
@@ -450,4 +450,4 @@ crop 200x200 smart
 Hugo caches processed images in the `resources` directory. If you include this directory in source control, Hugo will not have to regenerate the images in a [CI/CD](https://gohugo.io/quick-reference/glossary/#cicd) workflow (e.g., GitHub Pages, GitLab Pages, Netlify, etc.). This results in faster builds.
 
 If you change image processing methods or options, or if you rename or remove images, the `resources` directory will contain unused images. To remove the unused images, perform garbage collection with:
-![image](/blog/images/logo_light.png)
+![image](images/test.png)
